@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="Linux-c++"
-	BuildStamp="20240710-0349-Experimental"
+	BuildStamp="20240711-1425-Experimental"
 	Name="TPC"
 	Generator="ctest-3.29.6"
 	CompilerName="/usr/bin/c++"
@@ -18,17 +18,17 @@
 	ProcessorCacheSize="12288"
 	NumberOfLogicalCPU="12"
 	NumberOfPhysicalCPU="6"
-	TotalVirtualMemory="4095"
+	TotalVirtualMemory="17407"
 	TotalPhysicalMemory="15844"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="4000.03"
+	ProcessorClockFrequency="4004.12"
 	>
 	<Testing>
-		<StartDateTime>Jul 10 09:07 EDT</StartDateTime>
-		<StartTestTime>1720616846</StartTestTime>
+		<StartDateTime>Jul 11 10:40 EDT</StartDateTime>
+		<StartTestTime>1720708858</StartTestTime>
 		<TestList/>
-		<EndDateTime>Jul 10 09:07 EDT</EndDateTime>
-		<EndTestTime>1720616846</EndTestTime>
+		<EndDateTime>Jul 11 10:40 EDT</EndDateTime>
+		<EndTestTime>1720708858</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

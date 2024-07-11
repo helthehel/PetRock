@@ -52,7 +52,7 @@ build cmake_object_order_depends_target_PetRock: phony || .
 build CMakeFiles/PetRock.dir/main.cpp.o: CXX_COMPILER__PetRock_unscanned_Debug /home/hel/Programs/PetRock/main.cpp || cmake_object_order_depends_target_PetRock
   DEP_FILE = CMakeFiles/PetRock.dir/main.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/hel/Programs/PetRock/include
+  INCLUDES = -I/home/hel/Programs/PetRock/include -I/home/hel/Programs/PetRock/-lSDL2 -I/home/hel/Programs/PetRock/-lSDL2_ttf -I/home/hel/Programs/PetRock/-lSDL2main
   OBJECT_DIR = CMakeFiles/PetRock.dir
   OBJECT_FILE_DIR = CMakeFiles/PetRock.dir
 
