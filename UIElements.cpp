@@ -23,5 +23,5 @@ UIBorder UIElement::borderData() {
 
 UIButton::UIButton(UIBorder* borderData) {
     if (borderData != NULL) 
-        this->d_borderData = borderData;
+        this->setBorderData(borderData);
 }

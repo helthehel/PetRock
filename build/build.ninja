@@ -52,7 +52,21 @@ build cmake_object_order_depends_target_PetRock: phony || .
 build CMakeFiles/PetRock.dir/main.cpp.o: CXX_COMPILER__PetRock_unscanned_Debug /home/hel/Programs/PetRock/main.cpp || cmake_object_order_depends_target_PetRock
   DEP_FILE = CMakeFiles/PetRock.dir/main.cpp.o.d
   FLAGS = -g
-  INCLUDES = -I/home/hel/Programs/PetRock/include -I/home/hel/Programs/PetRock/-lSDL2 -I/home/hel/Programs/PetRock/-lSDL2_ttf -I/home/hel/Programs/PetRock/-lSDL2main
+  INCLUDES = -I/home/hel/Programs/PetRock/include
+  OBJECT_DIR = CMakeFiles/PetRock.dir
+  OBJECT_FILE_DIR = CMakeFiles/PetRock.dir
+
+build CMakeFiles/PetRock.dir/Window.cpp.o: CXX_COMPILER__PetRock_unscanned_Debug /home/hel/Programs/PetRock/Window.cpp || cmake_object_order_depends_target_PetRock
+  DEP_FILE = CMakeFiles/PetRock.dir/Window.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -I/home/hel/Programs/PetRock/include
+  OBJECT_DIR = CMakeFiles/PetRock.dir
+  OBJECT_FILE_DIR = CMakeFiles/PetRock.dir
+
+build CMakeFiles/PetRock.dir/UIElements.cpp.o: CXX_COMPILER__PetRock_unscanned_Debug /home/hel/Programs/PetRock/UIElements.cpp || cmake_object_order_depends_target_PetRock
+  DEP_FILE = CMakeFiles/PetRock.dir/UIElements.cpp.o.d
+  FLAGS = -g
+  INCLUDES = -I/home/hel/Programs/PetRock/include
   OBJECT_DIR = CMakeFiles/PetRock.dir
   OBJECT_FILE_DIR = CMakeFiles/PetRock.dir
 
@@ -64,8 +78,9 @@ build CMakeFiles/PetRock.dir/main.cpp.o: CXX_COMPILER__PetRock_unscanned_Debug /
 #############################################
 # Link the executable PetRock
 
-build PetRock: CXX_EXECUTABLE_LINKER__PetRock_Debug CMakeFiles/PetRock.dir/main.cpp.o
+build PetRock: CXX_EXECUTABLE_LINKER__PetRock_Debug CMakeFiles/PetRock.dir/main.cpp.o CMakeFiles/PetRock.dir/Window.cpp.o CMakeFiles/PetRock.dir/UIElements.cpp.o
   FLAGS = -g
+  LINK_PATH = -L/home/hel/Programs/PetRock/SDL2,   -L/home/hel/Programs/PetRock/SDL2_image,   -L/home/hel/Programs/PetRock/SDL2_ttf,   -L/home/hel/Programs/PetRock/SDL2_mixer,   -L/home/hel/Programs/PetRock/SDL2main
   OBJECT_DIR = CMakeFiles/PetRock.dir
   POST_BUILD = :
   PRE_LINK = :

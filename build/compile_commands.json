@@ -1,8 +1,20 @@
 [
 {
   "directory": "/home/hel/Programs/PetRock/build",
-  "command": "/usr/bin/c++ -I/home/hel/Programs/PetRock/include -I/home/hel/Programs/PetRock/-lSDL2 -I/home/hel/Programs/PetRock/-lSDL2_ttf -I/home/hel/Programs/PetRock/-lSDL2main -g -o CMakeFiles/PetRock.dir/main.cpp.o -c /home/hel/Programs/PetRock/main.cpp",
+  "command": "/usr/bin/c++ -I/home/hel/Programs/PetRock/include -g -o CMakeFiles/PetRock.dir/main.cpp.o -c /home/hel/Programs/PetRock/main.cpp",
   "file": "/home/hel/Programs/PetRock/main.cpp",
   "output": "CMakeFiles/PetRock.dir/main.cpp.o"
+},
+{
+  "directory": "/home/hel/Programs/PetRock/build",
+  "command": "/usr/bin/c++ -I/home/hel/Programs/PetRock/include -g -o CMakeFiles/PetRock.dir/Window.cpp.o -c /home/hel/Programs/PetRock/Window.cpp",
+  "file": "/home/hel/Programs/PetRock/Window.cpp",
+  "output": "CMakeFiles/PetRock.dir/Window.cpp.o"
+},
+{
+  "directory": "/home/hel/Programs/PetRock/build",
+  "command": "/usr/bin/c++ -I/home/hel/Programs/PetRock/include -g -o CMakeFiles/PetRock.dir/UIElements.cpp.o -c /home/hel/Programs/PetRock/UIElements.cpp",
+  "file": "/home/hel/Programs/PetRock/UIElements.cpp",
+  "output": "CMakeFiles/PetRock.dir/UIElements.cpp.o"
 }
 ]

@@ -6,6 +6,7 @@
 #include <cstddef>
 #include <vector>
 #include <unordered_map>
+#pragma once
 class UIBorder {
     float radius;
     float thickness;

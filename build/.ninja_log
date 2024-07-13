@@ -1,5 +1,5 @@
 # ninja log v6
-0	947	1720707920188457757	CMakeFiles/PetRock.dir/main.cpp.o	1033b1b52ac3a012
-947	1019	1720707921135125504	PetRock	d9427cfecceca0bb
-1	814	1720708037278587939	CMakeFiles/PetRock.dir/main.cpp.o	1033b1b52ac3a012
+2	1032	1720831912759702139	CMakeFiles/PetRock.dir/main.cpp.o	2d7e1d41ec81068
+2	907	1720831912759702139	CMakeFiles/PetRock.dir/UIElements.cpp.o	76f067d98806c0e6
 814	869	1720708038091922154	PetRock	d9427cfecceca0bb
+2	1074	1720831750791261067	CMakeFiles/PetRock.dir/Window.cpp.o	7fc8e43134f2ea0d
